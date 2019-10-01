@@ -1,0 +1,6 @@
+conda create -n airflow python=3.6
+
+conda activate airflow
+cd ~/.conda/envs/airflow/bin
+./pip install apache-airflow
+
